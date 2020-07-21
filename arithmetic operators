@@ -1,0 +1,14 @@
+userin1 = int(input())
+userin2 = int(input())
+
+def calc(x,y):
+    sum = x+y
+    print(sum)
+
+    sub = x-y
+    print(sub)
+
+    mul = x*y
+    print(mul)
+
+calc(userin1, userin2)
