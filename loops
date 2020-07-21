@@ -1,0 +1,7 @@
+userin = int(input())
+def square(x):
+    for i in range(x):
+        print(i**2)
+        i = i-1
+
+square(userin)
